@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/nficon2016.ico"
+      type="image/x-icon"
+    />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#"><img src="images/Netflix_Logo.png" alt="Netflix_Logo" /></a>
+    </nav>
+    <!-- 로그인 창 -->
+    <div class="form-wrapper">
+      <h2>로그인</h2>
+      <form action="#">
+        <div class="form-control">
+          <input type="text" required />
+          <label>이메일 주소 또는 전화번호</label>
+        </div>
+        <div class="form-control">
+          <input type="password" required />
+          <label>비밀번호</label>
+        </div>
+        <button type="submit">로그인</button>
+        <div class="form-help">
+          <div class="remember-me">
+            <input type="checkbox" id="remember-me" />
+            <label for="remember-me">로그인 정보 저장</label>
+          </div>
+          <a href="#">도움이 필요하신가요?</a>
+        </div>
+        <p>Netflix 회원이 아닌가요? <a href="#">지금 가입하세요.</a></p>
+        <small>
+          이 페이지는 Google reCAPTCHA의 보호를 받아 사용자가 로봇이 아님을
+          확인합니다.
+          <a href="#">자세히 알아보기.</a>
+        </small>
+      </form>
+    </div>
+  </body>
+</html>
